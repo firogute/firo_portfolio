@@ -226,6 +226,24 @@ section:hover {
   color: #4b389f;
 }
 
+/* Unique colors for each project card */
+#projects .project-frontend {
+  border-color: #7ecfff;
+  background: linear-gradient(145deg, #eaf7ff, #f7fcff);
+}
+#projects .project-backend {
+  border-color: #7ed9b6;
+  background: linear-gradient(145deg, #eafff7, #f7fffc);
+}
+#projects .project-productivity {
+  border-color: #ffe07e;
+  background: linear-gradient(145deg, #fffbe7, #fffdf7);
+}
+#projects .project-mvp {
+  border-color: #ffb47e;
+  background: linear-gradient(145deg, #fff2ea, #fffaf7);
+}
+
 #education {
   border-left-color: #2e99a7;
   background: linear-gradient(145deg, #f5fdff, #e4f4f7);
